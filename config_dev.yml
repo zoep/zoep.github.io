@@ -1,0 +1,12 @@
+# Site settings
+title: Zoe Paraskevopoulou
+email: zoe.paraskevopoulou@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+github_username:  zoep
+plus: +ZoeParaskevopoulou
+linkedin: zoe-paraskevopoulou/a7/108/a89
+
+# Build settings
+markdown: kramdown
