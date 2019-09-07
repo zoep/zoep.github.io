@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="canonical" href="http://zoep.github.io/">
+
     <!-- <link rel="stylesheet" href="/css/more.css"> -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -67,23 +68,56 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <p><img src="photoZP.jpg" alt="Me" style="width: 200px; border-radius: 15px" /></p>
+        <p><img align="left" src="photoZP.jpg" alt="Me" style="width: 200px; border-radius: 15px" /></p>
 
 <h2 id="about-me">About me</h2>
 
 <p>I am a PhD student in the area of programming languages at Princeton University,
-working with Prof. <a href="https://www.cs.princeton.edu/~appel/">Andrew Appel</a>. I am
-currently working on <a href="https://www.cs.princeton.edu/~appel/certicoq/">CertiCoq</a>
-and <a href="https://github.com/QuickChick/QuickChick">QuickChick</a> projects. I obtained
-my Master’s degree from ENS Cachan (Master Parisien de Recherche en
-Informatique) and my diploma (5-year engineering degree) from National Technical
-University of Athens.</p>
+working with Prof. <a href="https://www.cs.princeton.edu/~appel/">Andrew Appel</a>.</p>
+
+<p>In my PhD I study compiler correctness and in particular preservation of
+programs’ intentional propertities, like time and space consumption, through
+compilation pipelines. I am also interested in optimizations for closure
+conversion and their compositional verification.</p>
+
+<p>I actively contribute to the
+<a href="https://www.cs.princeton.edu/~appel/certicoq/">CertiCoq</a> project. I
+occasionally contribute to
+<a href="https://github.com/QuickChick/QuickChick">QuickChick</a> and
+<a href="https://www.fstar-lang.org/">F*</a>.</p>
+
+<p>Long time ago, I was a master’s student at ENS Cachan (Master Parisien de
+Recherche en Informatique) and an undergraduate student at School of Electical
+and Computer Enginnering at National Technical University of Athens.</p>
+
+<div>
+  <p class="social-media-list">
+
+    
+    <a href="mailto:zoe.paraskevopoulou@gmail.com">
+      <i class="fa fa-envelope-square fa-2x"></i>
+    </a>
+    
+
+    
+    <a href="https://github.com/zoep">
+      <i class="fa fa-github-square fa-2x"></i>
+    </a>
+    
+
+    
+
+	  
+
+  </p>
+</div>
 
 <h2 id="curriculum-vitae">Curriculum Vitae</h2>
 <p>My CV can be found <a href="CV.pdf">here</a>.</p>
 
 <h2 id="talks-updated-since-oct-2016">Talks (Updated since Oct 2016)</h2>
 <ul>
+  <li>[August 19th 2019] <strong>Closure Conversion is Safe for Space</strong>, ICFP 2019</li>
   <li>[June 2nd 2019] <strong>Closure Conversion is Safe for Space</strong>, DeepSpec @ PLDI 2019</li>
   <li>[Sept 7th 2018] <strong>Layered DSLs for Verified Cryptography</strong>, End-of-internship talk, MSR Redmond</li>
   <li>[Jan 12th 2018] <strong>Generating Good Generators for Inductive Relations</strong>, POPL 2018</li>
@@ -94,11 +128,11 @@ University of Athens.</p>
   <li>[Oct 24th 2016] PhD General Examination: <strong>Certified Closure Conversion for Certicoq</strong></li>
 </ul>
 
-<h2 id="internships">Internships</h2>
+<h2 id="research-internships">Research Internships</h2>
 <ul>
-  <li><strong>Microsoft Research Redmond</strong>, June - August 2018<br />
+  <li><strong>Microsoft Research, Redmond</strong>, June - August 2018<br />
 Excited to continue working on F*!</li>
-  <li><strong>Microsoft Research Redmond</strong>, June - August 2017<br />
+  <li><strong>Microsoft Research, Redmond</strong>, June - August 2017<br />
 Excited to be working with <a href="https://jonathan.protzenko.fr/">Jonathan Protzenko</a> and <a href="https://jonathan.protzenko.fr/">Nikhil Swamy</a> on F* native tactic compilation!</li>
   <li><strong>Max Planck Institute of Software Systems</strong>, March - August 2015<br />
 Advised by <a href="http://www.mpi-sws.org/~dg/">Deepak Garg</a> and worked on incremental computation for CostIt!</li>
@@ -109,16 +143,18 @@ Advised by <a href="http://prosecco.gforge.inria.fr/personal/hritcu/">Cătălin 
 <h2 id="publications">Publications</h2>
 <p>Zoe Paraskevopoulou, and Andrew Appel. <em>Closure Conversion is Safe for Space.</em>
 ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2019.
-<a href="icfp2019.pdf">preprint</a></p>
+<a href="icfp2019.pdf">paper</a>, <a href="slides-icfp2019.pdf">slides</a>, <a href="https://github.com/zoep/safe-for-space">Coq development</a></p>
 
 <p>Guido Martínez, Danel Ahman, Victor Dumitrescu, Nick Giannarakis, Chris
 Hawblitzel, Catalin Hritcu, Monal Narasimhamurthy, Zoe Paraskevopoulou, Clément
 Pit-Claudel, Jonathan Protzenko, Tahina Ramananandro, Aseem Rastogi, Nikhil
 Swamy. <em>Meta-F* : Proof Automation with SMT, Tactics, and Metaprograms</em>. ESOP
-2019.</p>
+2019.
+<a href="https://arxiv.org/abs/1803.06547">paper</a></p>
 
 <p>Leonidas Lampropoulos, Zoe Paraskevopoulou, and Benjamin Pierce. <em>Generating Good Generators for Inductive Relations.</em>
-In ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2018.</p>
+In ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2018.
+<a href="GeneratingGoodGenerators.pdf">paper</a>, <a href="slides-popl2018.pdf">slides</a></p>
 
 <p>Ezgi Çiçek, Zoe Paraskevopoulou, and Deepak Garg. <em>A type theory for incremental
 computational complexity with control flow changes</em>. ACM SIGPLAN International
@@ -131,6 +167,11 @@ Conference on Interactive Theorem Proving (ITP), August 2015.
 <a href="https://hal.inria.fr/hal-01162898/document">paper</a>, <a href="slides.pdf">slides</a></p>
 
 <h2 id="workshop-papers">Workshop Papers</h2>
+
+<p><em>ML as a Tactic Language, Again.</em> Guido Martínez, Danel Ahman, Victor
+Dumitrescu, Nick Giannarakis, Chris Hawblitzel, Cătălin Hriţcu, Monal
+Narasimhamurthy, Zoe Paraskevopoulou, Clément Pit-Claudel, Jonathan Protzenko,
+Tahina Ramananandro, Aseem Rastogi, and Nikhil Swamy. ML 2018.</p>
 
 <p><em>CertiCoq: A verified compiler for Coq (Extended Abstract).</em> Abhishek Anand,
 Andrew Appel, Greg Morrisett, Zoe Paraskevopoulou, Randy Pollack, Olivier Savary
@@ -162,6 +203,7 @@ Cătălin Hriţcu<br />
 
 <h2 id="service">Service</h2>
 <ul>
+  <li>Program Committee, ML 2019</li>
   <li>External Review Committee, ICFP 2019</li>
   <li>Program Committee, TyDe 2018</li>
   <li>Program Committee, OCaml 2017</li>
@@ -172,56 +214,6 @@ Cătălin Hriţcu<br />
     </div>
 
     <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <!-- <h2 class="footer-heading"></h2> -->
-
-      <div class="footer-col  footer-col-1">
-        <p class="social-media-list">
-
-          
-            <a href="mailto:zoe.paraskevopoulou@gmail.com">
-              <i class="fa fa-envelope-square fa-2x"></i>
-            </a>
-          
-
-          
-            <a href="https://github.com/zoep">
-              <i class="fa fa-github-square fa-2x"></i>
-            </a>
-          
-
-          
-            <a href="https://www.google.com/+ZoeParaskevopoulou">
-              <i class="fa fa-google-plus-square fa-2x"></i>
-            </a>
-          
-
-	  
-            <a href="https://www.linkedin.com/pub/zoe-paraskevopoulou/a7/108/a89">
-            <i class="fa fa-linkedin-square fa-2x"></i>
-            </a>
-	  
-
-        </p>
-      </div>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-2">
-	<p> </p>
-        <!-- <ul class="contact-list"> -->
-        <!--   <li> Contact </li> -->
-        <!--   <li><a href="mailto:zoe.paraskevopoulou@gmail.com">zoe.paraskevopoulou@gmail.com</a></li> -->
-        <!-- </ul> -->
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text"></p>
-      </div>
-    </div>
-
-  </div>
 
 </footer>
 

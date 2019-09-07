@@ -33,7 +33,11 @@ ul, ol, dl, figure,
  */
 img {
   max-width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
 
 /**
  * Figures
