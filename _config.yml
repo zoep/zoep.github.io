@@ -1,0 +1,21 @@
+title: Zoe Paraskevopoulou
+description: Assistant Professor, National Technical University of Athens
+url: "https://zoep.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - config_dev.yml
+  - jekyll/

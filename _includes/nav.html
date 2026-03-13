@@ -1,0 +1,13 @@
+<nav class="site-nav">
+  <div class="nav-wrapper">
+    <a class="site-title" href="{{ '/' | relative_url }}">Zoe Paraskevopoulou</a>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications' %}class="active"{% endif %}>Publications</a></li>
+      <li><a href="{{ '/teaching/' | relative_url }}" {% if page.url contains '/teaching' %}class="active"{% endif %}>Teaching</a></li>
+      <li><a href="{{ '/thesis-topics/' | relative_url }}" {% if page.url contains '/thesis-topics' %}class="active"{% endif %}>Thesis Topics</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
+      <li><a href="{{ '/assets/pdf/CV_ZoeParaskevopoulou.pdf' | relative_url }}">CV</a></li>
+    </ul>
+  </div>
+</nav>
