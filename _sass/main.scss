@@ -245,15 +245,37 @@ code {
 @media (max-width: 640px) {
   .home-header {
     flex-direction: column;
+    align-items: center;
     text-align: center;
 
-    .profile-photo { width: 100px; min-width: 100px; height: 100px; }
+    .profile-photo { width: 140px; min-width: 140px; height: 140px; }
   }
 
   .site-nav {
-    .nav-wrapper { flex-direction: column; padding: 0.5rem 1rem; }
-    .nav-links { flex-wrap: wrap; justify-content: center; }
+    .nav-wrapper {
+      flex-direction: column;
+      padding: 0.5rem 1rem;
+    }
+    .site-title { padding: 0.5rem 0 0.25rem; }
+    .nav-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0;
+      a { padding: 0.5rem 0.6rem; font-size: 0.9rem; }
+    }
   }
 
+  .container { padding: 1.5rem 1rem; }
+
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+
   .contact-links { justify-content: center; }
+
+  .pub-entry, .course-entry, .thesis-entry {
+    .pub-authors, .pub-venue, .pub-links,
+    .course-meta, .thesis-meta { font-size: 0.88rem; }
+  }
+
+  .service-list { font-size: 0.93rem; }
 }
