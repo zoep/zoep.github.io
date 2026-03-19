@@ -48,7 +48,7 @@ title: Home
 
 <div class="student-entry">
   <span class="student-name">Georgios Alexandros Georgantzas</span>, Master's Student<br>
-  <span class="student-meta">A verified library for reasoning about algorithmic stability in Lean, co-advised with <a href="https://cs.uwaterloo.ca/about/people/kfountou">Kyriakos Fountoulakis</a></span>
+  <span class="student-meta">A verified library for reasoning about algorithmic stability in Lean, co-advised with <a href="https://cs.uwaterloo.ca/about/people/kfountou">Kimon Fountoulakis</a></span>
 </div>
 
 ### Past
