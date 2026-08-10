@@ -8,22 +8,16 @@ permalink: /publications/
 
 For a full list, see my [Google Scholar profile](https://scholar.google.com/citations?user=n1-w5ZUAAAAJ).
 
-## Under Submission
+## Conference and Journal Papers
 
 <div class="pub-entry">
   <div class="pub-title">Machine-Generated, Machine-Checked Proofs for a Verified Compiler (Experience Report)</div>
   <div class="pub-authors">Zoe Paraskevopoulou</div>
+  <div class="pub-venue">ICFP 2026</div>
   <div class="pub-links">
     <a href="https://arxiv.org/abs/2602.20082">preprint</a>
   </div>
 </div>
-
-<div class="pub-entry">
-  <div class="pub-title">Act: From EVM Bytecode to Machine-Checked Reasoning for Smart Contracts</div>
-  <div class="pub-authors">Zoe Paraskevopoulou, Lefteris Lazaropoulos, Anja Petkovi&cacute; Komel, Sophie Rain, and Alexis Terry</div>
-</div>
-
-## Conference Papers
 
 <div class="pub-entry">
   <div class="pub-title">RichWasm: Bringing Safe, Fine-Grained, Shared-Memory Interoperability Down to WebAssembly</div>
@@ -110,6 +104,12 @@ For a full list, see my [Google Scholar profile](https://scholar.google.com/cita
 </div>
 
 ## Workshop Papers
+
+<div class="pub-entry">
+  <div class="pub-title">Act: Specification Language and Verification Framework for Ethereum Smart Contracts</div>
+  <div class="pub-authors">Zoe Paraskevopoulou, Lefteris Lazaropoulos, Anja Petkovi&cacute; Komel, Sophie Rain, and Alexis Terry</div>
+  <div class="pub-venue">FMBC 2026</div>
+</div>
 
 <div class="pub-entry">
   <div class="pub-title">Enabling Safe Shared-Memory Interoperability in WebAssembly</div>
