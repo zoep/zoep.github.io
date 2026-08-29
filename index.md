@@ -18,7 +18,7 @@ title: Home
 
 <div class="home-bio">
   <p>
-    I am a researcher and educator specializing in formal verification, interactive
+    I am an Assistant Professor specializing in formal verification, interactive
     theorem proving, and verified compilers. I build practical tools, grounded in
     foundational theory, that ensure end-to-end correctness of complex software
     systems. My recent work explores AI-assisted proof mechanization: leveraging
