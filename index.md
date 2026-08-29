@@ -9,7 +9,7 @@ title: Home
     <h1>Zoe Paraskevopoulou</h1>
     <p class="home-affiliation">Assistant Professor, <a href="https://www.ece.ntua.gr/en">School of Electrical and Computer Engineering</a>, <a href="https://www.ntua.gr/en">NTUA</a></p>
     <ul class="contact-links">
-      <li><a href="mailto:zoe.paraskevopoulou@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a></li>
+      <li><a href="mailto:zoepar@softlab.ntua.gr" title="Email"><i class="fa-solid fa-envelope"></i></a></li>
       <li><a href="https://github.com/zoep" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
       <li><a href="https://scholar.google.com/citations?user=n1-w5ZUAAAAJ" title="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a></li>
     </ul>
