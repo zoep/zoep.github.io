@@ -144,6 +144,19 @@ code {
   margin-bottom: 2rem;
 }
 
+.home-email {
+  color: $color-muted;
+  font-size: 0.95rem;
+  margin: 0.5rem 0 0;
+
+  i { margin-right: 0.35rem; }
+  a {
+    color: inherit;
+    transition: color 0.15s;
+    &:hover { color: $color-link; text-decoration: none; }
+  }
+}
+
 .contact-links {
   list-style: none;
   padding: 0;
