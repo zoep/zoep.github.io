@@ -66,16 +66,32 @@ title: Home
   <span class="student-meta"><em>Implementation and Verification of the Dead Parameter Elimination Optimization of the CertiCoq Compiler</em>, co-advised with Prof. Andrew Appel</span>
 </div>
 
+## Invited Talks
+
+<div class="talk-entry">
+  <span class="talk-title">Proof-Carrying Code For the Age of AI: Machine-Checked Guarantees from Specifications to Executables</span><br>
+  <span class="talk-meta">Keynote, <a href="https://icfp26.sigplan.org/home/lopstr-ppdp-2026">LOPSTR+PPDP 2026</a>, co-located with ICFP 2026, Indianapolis, USA, August 2026</span>
+</div>
+
 ## Academic Service
 
 <div class="service-list">
+Program Committee, ICFP 2027<br>
+Program Committee, CSF 2027<br>
+Program Committee, RocqPL 2027<br>
 Co-chair, RocqShop 2026<br>
 Program Committee, PLDI 2026<br>
+Program Committee, CPP 2026<br>
+Program Committee, ML 2025<br>
+Program Committee, ICFP 2024<br>
 Program Committee, PLDI 2023<br>
+Program Committee, CoqPL 2023<br>
 Program Committee, Types 2022<br>
 Workshops Co-chair, ICFP 2022<br>
 Program Committee, PEPM 2022<br>
 Program Committee, CPP 2022<br>
+Program Committee, ISMM 2022<br>
+Program Committee, OCaml 2022<br>
 Workshops Co-chair, ICFP 2021<br>
 Program Committee, PriSC 2021<br>
 Program Committee, TFP 2020<br>
