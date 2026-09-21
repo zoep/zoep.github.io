@@ -9,26 +9,31 @@ permalink: /thesis-topics/
 I am looking for motivated students interested in formal verification, interactive theorem proving, verified compilers, and AI-assisted proof mechanization. Below are some available thesis topics. If you are interested, please get in touch.
 
 <div class="thesis-entry">
-  <div class="thesis-title">LLM-Assisted End-to-End Verification of the CertiRocq Compiler</div>
+  <div class="thesis-title">Verified Transformations on Demand for the λANF Pipeline</div>
+  <div class="thesis-meta">Master’s thesis</div>
   <div class="thesis-meta">
-    Use LLMs to fill verification gaps in the CertiRocq compiler pipeline and work toward an end-to-end correctness theorem.
-    Requires familiarity with Rocq (Coq) and functional programming.
+    Develop and verify a function-specialization pass for CertiRocq's λANF pipeline, using LLMs to adapt existing Rocq proofs.
+    Evaluate compiler performance and the human guidance needed to build new verified optimizations.
+    <a href="{{ '/assets/pdf/lambdaanf_thesis_proposal.pdf' | relative_url }}">proposal (PDF)</a>
+  </div>
+</div>
+
+<div class="thesis-entry">
+  <div class="thesis-title">LLM-Assisted Verification of C Code Generation</div>
+  <div class="thesis-meta">Master’s thesis</div>
+  <div class="thesis-meta">
+    Design a logical relation between CertiRocq's λANF language and CompCert's Clight, and use it to verify the C code-generation pass in Rocq under explicit runtime assumptions.
+    Explore how LLMs can assist with both the proof's invariants and its mechanization.
+    <a href="{{ '/assets/pdf/c_codegen_thesis_proposal.pdf' | relative_url }}">proposal (PDF)</a>
   </div>
 </div>
 
 <div class="thesis-entry">
   <div class="thesis-title">Verified Library Implementations in Lean</div>
+  <div class="thesis-meta">Master’s thesis</div>
   <div class="thesis-meta">
     Develop verified implementations of data structures and algorithms in the Lean proof assistant, with extraction to mainstream languages via foreign function interfaces.
     Requires familiarity with functional programming and interest in theorem proving.
-  </div>
-</div>
-
-<div class="thesis-entry">
-  <div class="thesis-title">AI-Assisted Proof Mechanization</div>
-  <div class="thesis-meta">
-    Explore and evaluate the use of LLMs for mechanizing mathematical proofs in interactive theorem provers (Rocq, Lean).
-    Requires interest in formal verification and AI.
   </div>
 </div>
 
