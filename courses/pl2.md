@@ -33,7 +33,7 @@ program analysis, and memory safety. Lectures and assignments use the
   <dt>Instructor</dt>
   <dd><a href="{{ '/' | relative_url }}">Zoe Paraskevopoulou</a></dd>
   <dt>Lectures</dt>
-  <dd>Friday 11:45–14:30</dd>
+  <dd>Friday 11:45–14:30, Room 8, New ECE Building</dd>
   <dt>Office hours</dt>
   <dd>By appointment (<a href="mailto:zoepar@softlab.ntua.gr">contact the instructor</a>)</dd>
   <dt>Course site</dt>
