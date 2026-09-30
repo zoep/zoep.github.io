@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <nav class="site-nav course-nav">
+    <div class="nav-wrapper">
+      <a class="site-title" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+      {% if page.sections %}
+      <ul class="nav-links">
+        {% for s in page.sections %}
+        <li><a href="#{{ s.id }}">{{ s.name }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </nav>
+  <div class="container">
+    {{ content }}
+  </div>
+  {% include footer.html %}
+</body>
+</html>

@@ -19,6 +19,6 @@ permalink: /teaching/
 </div>
 
 <div class="course-entry">
-  <div class="course-title">Advanced Programming Languages</div>
-  <div class="course-meta">Graduate, School of Electrical and Computer Engineering</div>
+  <div class="course-title"><a href="{{ '/teaching/pl2/' | relative_url }}">Advanced Programming Languages</a></div>
+  <div class="course-meta">Advanced undergraduate/Graduate, School of Electrical and Computer Engineering</div>
 </div>
