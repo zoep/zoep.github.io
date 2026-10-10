@@ -41,7 +41,9 @@ program analysis, and memory safety. Lectures and assignments use the
   <dt>Assignments</dt>
   <dd>Weekly (about 11, tentative), each with a 10-day deadline</dd>
   <dt>Exam</dt>
-  <dd>No final exam</dd>
+  <dd>Written final exam, based on the concepts and techniques developed in the assignments. It is designed so that anyone who has engaged substantively with the assignments can do well.</dd>
+  <dt>Grading</dt>
+  <dd>Assignments 70%, final exam 30%. Passing the course requires a grade of at least 5/10 on the final exam and an overall grade of at least 5/10.</dd>
   <dt>Material</dt>
   <dd><a href="https://github.com/zoep/PL2">github.com/zoep/PL2</a> (lecture notes, code, and resources)</dd>
   <dt>Software</dt>
