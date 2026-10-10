@@ -39,7 +39,7 @@ program analysis, and memory safety. Lectures and assignments use the
   <dt>Course site</dt>
   <dd><a href="https://helios.ntua.gr/">Helios</a> (announcements and assignment submission)</dd>
   <dt>Assignments</dt>
-  <dd>Weekly (about 11, tentative), each with a 10-day deadline</dd>
+  <dd>Weekly (8–10, tentative), each with a 10-day deadline</dd>
   <dt>Exam</dt>
   <dd>Written final exam, based on the concepts and techniques developed in the assignments. It is designed so that anyone who has engaged substantively with the assignments can do well.</dd>
   <dt>Grading</dt>
