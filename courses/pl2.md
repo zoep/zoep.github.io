@@ -5,8 +5,8 @@ permalink: /teaching/pl2/
 sections:
   - name: Information
     id: course-information
-  - name: Lectures
-    id: lectures
+  - name: Sections
+    id: sections
   - name: Assignments
     id: assignments
   - name: References
@@ -50,14 +50,14 @@ program analysis, and memory safety. Lectures and assignments use the
   <dd>The Rocq Prover (version 9.0 or later) and an editor with Rocq support. See the installation instructions in <a href="https://github.com/zoep/PL2/blob/main/INSTALL.md">Greek</a> or <a href="https://github.com/zoep/PL2/blob/main/INSTALL-eng.md">English</a>.</dd>
 </dl>
 
-## Lectures
+## Sections
 
 The lecture notes are Rocq files meant to be stepped through interactively in
 your editor. They are updated during the term; the latest versions are always in
 the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
 
 <div class="syllabus-entry">
-  <div class="entry-label">Lecture 1</div>
+  <div class="entry-label">Section 1</div>
   <div class="entry-body">
     <div class="entry-title">Introduction &middot; The Rocq Proof Assistant I: Functional Programming with Proofs</div>
     <div class="entry-desc">Course overview and organization. A brief history of the foundations of mathematics and computation, the λ-calculus, the Curry–Howard isomorphism, proof assistants, and Rocq. Functional programming in Rocq: functions and polymorphism, inductive types (booleans, natural numbers, pairs, lists, option), pattern matching, and first proofs by simplification, rewriting, case analysis, and induction.</div>
@@ -69,7 +69,7 @@ the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
 </div>
 
 <div class="syllabus-entry">
-  <div class="entry-label">Lecture 2</div>
+  <div class="entry-label">Section 2</div>
   <div class="entry-body">
     <div class="entry-title">The Rocq Proof Assistant II: Logic</div>
     <div class="entry-desc">Propositions as types: <code>Prop</code>, predicates, and relations. Logical connectives and their proof rules as tactics: implication, universal quantification, True and False, negation, disjunction, conjunction, if and only if, equality, and existential quantification. Inductively defined propositions, proof by contradiction and the excluded middle, and induction on the derivation of a proposition.</div>
@@ -77,6 +77,19 @@ the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
       <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_02_logic.v">Notes (notes_02_logic.v)</a>
       <a href="{{ '/assets/courses/pl2/practice/02/practice.v' | relative_url }}">Practice problems (practice.v)</a>
       <a href="{{ '/assets/courses/pl2/practice/02/practice_sol.v' | relative_url }}">Practice solutions (practice_sol.v)</a>
+    </div>
+  </div>
+</div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Section 3</div>
+  <div class="entry-body">
+    <div class="entry-title">Introduction to Programming Language Semantics &middot; Operational Semantics in Rocq: The Language Imp</div>
+    <div class="entry-desc">Big-step and small-step operational semantics of arithmetic expressions and their equivalence. Proof automation with Ltac: custom tactics and tacticals. The imperative language Imp: states, expressions with variables, commands and their big-step semantics, determinism, a fuel-based interpreter, and a program correctness case study.</div>
+    <div class="entry-links">
+      <a href="{{ '/assets/courses/pl2/slides/03-semantics.pdf' | relative_url }}">Slides (PDF)</a>
+      <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_03_imp.v">Notes (notes_03_imp.v)</a>
+      <a href="{{ '/assets/courses/pl2/practice/03/practice3.zip' | relative_url }}">Practice problems and solutions (practice3.zip)</a>
     </div>
   </div>
 </div>
@@ -107,6 +120,18 @@ is available in English and in Greek, and is submitted through Helios.
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/assignments/02/assignment2_eng.v' | relative_url }}">assignment2_eng.v (English)</a>
       <a href="{{ '/assets/courses/pl2/assignments/02/assignment2.v' | relative_url }}">assignment2.v (Greek)</a>
+    </div>
+  </div>
+</div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Assignment 3</div>
+  <div class="entry-body">
+    <div class="entry-title">Operational Semantics of Imp</div>
+    <div class="entry-desc">An Imp program that swaps two variables; correctness of constant folding for Imp; extending Imp with for loops. 100 points + 20 bonus points. The archive also contains <code>imp.v</code> with the Imp definitions from Section 3 and a Makefile; follow the README inside and submit only <code>assignment3.v</code>.</div>
+    <div class="entry-links">
+      <a href="{{ '/assets/courses/pl2/assignments/03/assignment3_eng.zip' | relative_url }}">assignment3_eng.zip (English)</a>
+      <a href="{{ '/assets/courses/pl2/assignments/03/assignment3.zip' | relative_url }}">assignment3.zip (Greek)</a>
     </div>
   </div>
 </div>

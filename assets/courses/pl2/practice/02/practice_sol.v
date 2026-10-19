@@ -1,4 +1,4 @@
-Require Import Coq.Lists.List Coq.Init.Nat Coq.Arith.Arith Lia.
+From Stdlib Require Import Lists.List Init.Nat Arith.Arith Lia.
 
 (** * Practice Problems with Solutions *)
 
