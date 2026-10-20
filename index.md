@@ -37,26 +37,30 @@ title: Home
 ### Current
 
 <div class="student-entry">
-  <span class="student-name">Lefteris Lazaropoulos</span>, Master's Student<br>
+  <span class="student-name">Lefteris Lazaropoulos</span>, Diploma Thesis<br>
   <span class="student-meta">From EVM bytecode to mechanized reasoning in proof assistants</span>
 </div>
 
 <div class="student-entry">
-  <span class="student-name">Petros Aggelatos</span>, Master's Student<br>
+  <span class="student-name">Petros Aggelatos</span>, Diploma Thesis<br>
   <span class="student-meta">Verified differential data flow in Lean</span>
 </div>
 
 <div class="student-entry">
-  <span class="student-name">Georgios Alexandros Georgantzas</span>, Master's Student<br>
-  <span class="student-meta">A verified library for reasoning about algorithmic stability in Lean, co-advised with <a href="https://cs.uwaterloo.ca/about/people/kfountou">Kimon Fountoulakis</a></span>
-</div>
-
-<div class="student-entry">
-  <span class="student-name">Mihalis Rasoulis</span>, Master's Student<br>
+  <span class="student-name">Mihalis Rasoulis</span>, Diploma Thesis<br>
   <span class="student-meta">Verified inlining for CertiRocq</span>
 </div>
 
 ### Past
+
+#### National Technical University of Athens
+
+<div class="student-entry">
+  <span class="student-name">Georgios Alexandros Georgantzas</span>, Diploma Thesis, Spring 2026<br>
+  <span class="student-meta"><em>A verified library for reasoning about algorithmic stability in Lean</em>, co-advised with <a href="https://cs.uwaterloo.ca/about/people/kfountou">Kimon Fountoulakis</a></span>
+</div>
+
+#### Princeton University
 
 <div class="student-entry">
   <span class="student-name">Anvay Grover</span>, Senior Thesis, Fall 2019 / Spring 2020<br>
