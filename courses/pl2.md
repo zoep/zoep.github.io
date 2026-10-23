@@ -9,6 +9,8 @@ sections:
     id: sections
   - name: Assignments
     id: assignments
+  - name: LLM Playground
+    id: llm-playground
   - name: References
     id: references
   - name: Thesis Topics
@@ -25,7 +27,7 @@ use in building reliable software. Topics include operational and axiomatic
 semantics, compiler correctness, Hoare logic and automated verification, the
 lambda calculus, type systems and type inference, type classes and monads,
 program analysis, and memory safety. Lectures and assignments use the
-[Rocq Prover](https://rocq-prover.org/), Haskell, and Rust.
+[Rocq Prover](https://rocq-prover.org/), Dafny, Haskell, and Rust.
 
 ## Course Information
 
@@ -47,7 +49,7 @@ program analysis, and memory safety. Lectures and assignments use the
   <dt>Material</dt>
   <dd><a href="https://github.com/zoep/PL2">github.com/zoep/PL2</a> (lecture notes, code, and resources)</dd>
   <dt>Software</dt>
-  <dd>The Rocq Prover (version 9.0 or later) and an editor with Rocq support. See the installation instructions in <a href="https://github.com/zoep/PL2/blob/main/INSTALL.md">Greek</a> or <a href="https://github.com/zoep/PL2/blob/main/INSTALL-eng.md">English</a>.</dd>
+  <dd>The Rocq Prover (version 9.0 or later) and an editor with Rocq support. See the installation instructions in <a href="https://github.com/zoep/PL2/blob/main/INSTALL.md">Greek</a> or <a href="https://github.com/zoep/PL2/blob/main/INSTALL-eng.md">English</a>.<br>Dafny, for Section 5: the easiest setup is VS Code with the Dafny extension, which offers to install Dafny when you open a <code>.dfy</code> file (see the <a href="https://dafny.org/latest/Installation">Dafny installation instructions</a>).</dd>
 </dl>
 
 ## Sections
@@ -85,11 +87,60 @@ the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
   <div class="entry-label">Section 3</div>
   <div class="entry-body">
     <div class="entry-title">Introduction to Programming Language Semantics &middot; Operational Semantics in Rocq: The Language Imp</div>
-    <div class="entry-desc">Big-step and small-step operational semantics of arithmetic expressions and their equivalence. Proof automation with Ltac: custom tactics and tacticals. The imperative language Imp: states, expressions with variables, commands and their big-step semantics, determinism, a fuel-based interpreter, and a program correctness case study.</div>
+    <div class="entry-desc">Big-step and small-step operational semantics of arithmetic expressions and their equivalence. Proof automation with Ltac: custom tactics and tacticals. The imperative language Imp: states, expressions with variables, commands and their big-step semantics, determinism, a fuel-based interpreter, and a program correctness case study. Compiler correctness: what it means for a program transformation to be correct.</div>
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/slides/03-semantics.pdf' | relative_url }}">Slides (PDF)</a>
       <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_03_imp.v">Notes (notes_03_imp.v)</a>
+      <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_04_compcorrect.v">Notes (notes_04_compcorrect.v)</a>
       <a href="{{ '/assets/courses/pl2/practice/03/practice3.zip' | relative_url }}">Practice problems and solutions (practice3.zip)</a>
+    </div>
+  </div>
+</div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Section 4</div>
+  <div class="entry-body">
+    <div class="entry-title">Introduction to Proof Systems: First-Order Logic and Natural Deduction</div>
+    <div class="entry-desc">First-order logic and natural deduction. Semantics of first-order logic: models and validity. Soundness, completeness, Gödel’s incompleteness theorems, decidability, and SMT solvers.</div>
+    <div class="entry-links">
+      <a href="{{ '/assets/courses/pl2/slides/04-fol.pdf' | relative_url }}">Slides (PDF)</a>
+    </div>
+  </div>
+</div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Section 5</div>
+  <div class="entry-body">
+    <div class="entry-title">Axiomatic Semantics: Hoare Logic &middot; Program Verification in Dafny</div>
+    <div class="entry-desc">Hoare logic for Imp: triples, inference rules, and loop invariants, with proofs of soundness and completeness. Weakest preconditions and verification conditions for automated verification. Program verification in Dafny.</div>
+    <div class="entry-links">
+      <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_05_hoare.v">Notes (notes_05_hoare.v)</a>
+      <a href="https://github.com/zoep/PL2/blob/main/lectures/Dafny/examples.dfy">Dafny notes (examples.dfy)</a>
+      <a href="https://github.com/zoep/PL2/blob/main/lectures/Dafny/fib.dfy">Dafny notes (fib.dfy)</a>
+    </div>
+  </div>
+</div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Section 6</div>
+  <div class="entry-body">
+    <div class="entry-title">Introduction to Lambda Calculus &middot; The Pure Lambda Calculus in Rocq</div>
+    <div class="entry-desc">Syntax, substitution, and α-equivalence; β-reduction, confluence, and call-by-value and call-by-name evaluation; Church encodings and fixed-point combinators. In Rocq: small-step and big-step semantics, an interpreter proved correct, and an untyped MiniML.</div>
+    <div class="entry-links">
+      <a href="{{ '/assets/courses/pl2/slides/06-lambda.pdf' | relative_url }}">Slides (PDF)</a>
+      <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_06_lambda.v">Notes (notes_06_lambda.v)</a>
+    </div>
+  </div>
+</div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Section 7</div>
+  <div class="entry-body">
+    <div class="entry-title">Introduction to Type Systems &middot; The Simply Typed Lambda Calculus in Rocq</div>
+    <div class="entry-desc">Language safety, type safety, and static versus dynamic typing. The simply typed λ-calculus: typing rules, type safety, normalization, and type reconstruction. In Rocq: an extended simply typed λ-calculus, a proof of type safety by progress and preservation, and a type checker proved sound and complete.</div>
+    <div class="entry-links">
+      <a href="{{ '/assets/courses/pl2/slides/07-typesys-1.pdf' | relative_url }}">Slides (PDF)</a>
+      <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_07_types.v">Notes (notes_07_types.v)</a>
     </div>
   </div>
 </div>
@@ -135,6 +186,37 @@ is available in English and in Greek, and is submitted through Helios.
     </div>
   </div>
 </div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Assignment 4</div>
+  <div class="entry-body">
+    <div class="entry-title">Hoare Logic and Dafny</div>
+    <div class="entry-desc">Repeated squaring in Imp, proved correct with Hoare logic; a havoc command for Imp and Hoare logic; fast exponentiation in Dafny. Solve two of the three exercises for 100 points; solving all three earns 30 bonus points. The archive also contains <code>imp.v</code>, <code>hoare.v</code>, and a Makefile; follow the README inside and submit <code>assignment4.v</code> and/or <code>fastexp.dfy</code>.</div>
+    <div class="entry-links">
+      <a href="{{ '/assets/courses/pl2/assignments/04/assignment4_eng.zip' | relative_url }}">assignment4_eng.zip (English)</a>
+      <a href="{{ '/assets/courses/pl2/assignments/04/assignment4.zip' | relative_url }}">assignment4.zip (Greek)</a>
+    </div>
+  </div>
+</div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Assignment 5</div>
+  <div class="entry-body">
+    <div class="entry-title">MiniML: Interpreter, Type Safety, and Recursion</div>
+    <div class="entry-desc">An interpreter for MiniML with references and recursive functions; type safety in the presence of trapped errors; a fix operator for recursion in the typed λ-calculus. 100 points. The archive also contains <code>miniML.v</code> and a Makefile; follow the README inside and submit only <code>assignment5.v</code>.</div>
+    <div class="entry-links">
+      <a href="{{ '/assets/courses/pl2/assignments/05/assignment5_eng.zip' | relative_url }}">assignment5_eng.zip (English)</a>
+      <a href="{{ '/assets/courses/pl2/assignments/05/assignment5.zip' | relative_url }}">assignment5.zip (Greek)</a>
+    </div>
+  </div>
+</div>
+
+## LLM Playground
+
+The [LLM playground](https://github.com/zoep/PL2/tree/main/LLM-playground) collects
+our in-class experiments with LLMs on formal verification and programming languages.
+
+- [Merge sort](https://github.com/zoep/PL2/blob/main/LLM-playground/mergesort.v) (23/10/2026)
 
 ## References
 
