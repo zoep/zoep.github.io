@@ -55,14 +55,14 @@ program analysis, and memory safety. Lectures and assignments use the
 ## Sections
 
 The lecture notes are Rocq files meant to be stepped through interactively in
-your editor. They are updated during the term; the latest versions are always in
+your editor. They are updated during the term. The latest versions are always in
 the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
 
 <div class="syllabus-entry">
   <div class="entry-label">Section 1</div>
   <div class="entry-body">
     <div class="entry-title">Introduction &middot; The Rocq Proof Assistant I: Functional Programming with Proofs</div>
-    <div class="entry-desc">Course overview and organization. A brief history of the foundations of mathematics and computation, the λ-calculus, the Curry–Howard isomorphism, proof assistants, and Rocq. Functional programming in Rocq: functions and polymorphism, inductive types (booleans, natural numbers, pairs, lists, option), pattern matching, and first proofs by simplification, rewriting, case analysis, and induction.</div>
+    <div class="entry-desc">Course overview and organization. A brief history of the foundations of mathematics and computation, the λ-calculus, the Curry–Howard isomorphism, proof assistants, and Rocq. Functional programming in Rocq: functions and polymorphism, inductive types, pattern matching, and first proofs by simplification, rewriting, case analysis, and induction.</div>
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/slides/01-intro.pdf' | relative_url }}">Slides (PDF)</a>
       <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_01_intro.v">Notes (notes_01_intro.v)</a>
@@ -74,7 +74,7 @@ the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
   <div class="entry-label">Section 2</div>
   <div class="entry-body">
     <div class="entry-title">The Rocq Proof Assistant II: Logic</div>
-    <div class="entry-desc">Propositions as types: <code>Prop</code>, predicates, and relations. Logical connectives and their proof rules as tactics: implication, universal quantification, True and False, negation, disjunction, conjunction, if and only if, equality, and existential quantification. Inductively defined propositions, proof by contradiction and the excluded middle, and induction on the derivation of a proposition.</div>
+    <div class="entry-desc">Propositions as types: <code>Prop</code>, predicates, and relations. Logical connectives and their proof rules as tactics. Inductively defined propositions, proof by contradiction and the excluded middle, and induction on the derivation of a proposition.</div>
     <div class="entry-links">
       <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_02_logic.v">Notes (notes_02_logic.v)</a>
       <a href="{{ '/assets/courses/pl2/practice/02/practice.v' | relative_url }}">Practice problems (practice.v)</a>
@@ -87,7 +87,7 @@ the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
   <div class="entry-label">Section 3</div>
   <div class="entry-body">
     <div class="entry-title">Introduction to Programming Language Semantics &middot; Operational Semantics in Rocq: The Language Imp</div>
-    <div class="entry-desc">Big-step and small-step operational semantics of arithmetic expressions and their equivalence. Proof automation with Ltac: custom tactics and tacticals. The imperative language Imp: states, expressions with variables, commands and their big-step semantics, determinism, a fuel-based interpreter, and a program correctness case study. Compiler correctness: what it means for a program transformation to be correct.</div>
+    <div class="entry-desc">Big-step and small-step operational semantics of arithmetic expressions and their equivalence. Proof automation with Ltac. The imperative language Imp, commands and their big-step semantics, determinism, a fuel-based interpreter, and a program correctness case study. Compiler correctness: what it means for a program transformation to be correct.</div>
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/slides/03-semantics.pdf' | relative_url }}">Slides (PDF)</a>
       <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_03_imp.v">Notes (notes_03_imp.v)</a>
