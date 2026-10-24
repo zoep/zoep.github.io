@@ -199,18 +199,6 @@ is available in English and in Greek, and is submitted through Helios.
   </div>
 </div>
 
-<div class="syllabus-entry">
-  <div class="entry-label">Assignment 5</div>
-  <div class="entry-body">
-    <div class="entry-title">MiniML: Interpreter, Type Safety, and Recursion</div>
-    <div class="entry-desc">An interpreter for MiniML with references and recursive functions; type safety in the presence of trapped errors; a fix operator for recursion in the typed λ-calculus. 100 points. The archive also contains <code>miniML.v</code> and a Makefile; follow the README inside and submit only <code>assignment5.v</code>.</div>
-    <div class="entry-links">
-      <a href="{{ '/assets/courses/pl2/assignments/05/assignment5_eng.zip' | relative_url }}">assignment5_eng.zip (English)</a>
-      <a href="{{ '/assets/courses/pl2/assignments/05/assignment5.zip' | relative_url }}">assignment5.zip (Greek)</a>
-    </div>
-  </div>
-</div>
-
 ## LLM Playground
 
 The [LLM playground](https://github.com/zoep/PL2/tree/main/LLM-playground) collects
