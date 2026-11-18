@@ -204,7 +204,9 @@ is available in English and in Greek, and is submitted through Helios.
 The [LLM playground](https://github.com/zoep/PL2/tree/main/LLM-playground) collects
 our in-class experiments with LLMs on formal verification and programming languages.
 
-- [Merge sort](https://github.com/zoep/PL2/blob/main/LLM-playground/mergesort.v) (23/10/2026)
+- [Merge sort](https://github.com/zoep/PL2/tree/main/LLM-playground/mergesort) (23/10/2026)
+- [Compiler from Imp to a stack machine](https://github.com/zoep/PL2/tree/main/LLM-playground/compiler) (30/10/2026)
+- [Lambda calculus playground](https://github.com/zoep/PL2/tree/main/LLM-playground/lambda-calculus) (13/11/2026)
 
 ## References
 

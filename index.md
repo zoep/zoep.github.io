@@ -37,8 +37,8 @@ title: Home
 ### Current
 
 <div class="student-entry">
-  <span class="student-name">Lefteris Lazaropoulos</span>, Diploma Thesis<br>
-  <span class="student-meta">From EVM bytecode to mechanized reasoning in proof assistants</span>
+  <span class="student-name">Eleftherios (Lefteris) Lazaropoulos</span>, PhD Student, since Fall 2026<br>
+  <span class="student-meta">Verifying software end-to-end in the Lean proof assistant</span>
 </div>
 
 <div class="student-entry">
@@ -58,6 +58,11 @@ title: Home
 <div class="student-entry">
   <span class="student-name">Georgios Alexandros Georgantzas</span>, Diploma Thesis, Spring 2026<br>
   <span class="student-meta"><em>A verified library for reasoning about algorithmic stability in Lean</em>, co-advised with <a href="https://cs.uwaterloo.ca/about/people/kfountou">Kimon Fountoulakis</a></span>
+</div>
+
+<div class="student-entry">
+  <span class="student-name">Eleftherios (Lefteris) Lazaropoulos</span>, Diploma Thesis, Fall 2025 / Spring 2026<br>
+  <span class="student-meta"><em>From EVM bytecode to mechanized reasoning in proof assistants</em></span>
 </div>
 
 #### Princeton University
