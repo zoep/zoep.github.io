@@ -125,7 +125,7 @@ the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
   <div class="entry-label">Section 6</div>
   <div class="entry-body">
     <div class="entry-title">Introduction to Lambda Calculus &middot; The Pure Lambda Calculus in Rocq</div>
-    <div class="entry-desc">Syntax, substitution, and α-equivalence; β-reduction, confluence, and call-by-value and call-by-name evaluation; Church encodings and fixed-point combinators. In Rocq: small-step and big-step semantics, an interpreter proved correct, and an untyped MiniML.</div>
+    <div class="entry-desc">Syntax, substitution, and α-equivalence. β-reduction, confluence, and call-by-value and call-by-name evaluation. Church encodings and fixed-point combinators. In Rocq: small-step and big-step semantics, an interpreter proved correct, and an untyped MiniML.</div>
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/slides/06-lambda.pdf' | relative_url }}">Slides (PDF)</a>
       <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_06_lambda.v">Notes (notes_06_lambda.v)</a>
@@ -141,6 +141,8 @@ the [course repository](https://github.com/zoep/PL2/tree/main/lectures/Rocq).
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/slides/07-typesys-1.pdf' | relative_url }}">Slides (PDF)</a>
       <a href="https://github.com/zoep/PL2/blob/main/lectures/Rocq/notes_07_types.v">Notes (notes_07_types.v)</a>
+      <a href="{{ '/assets/courses/pl2/practice/07/practice7_eng.pdf' | relative_url }}">Practice problems (English, PDF)</a>
+      <a href="{{ '/assets/courses/pl2/practice/07/practice7.pdf' | relative_url }}">Practice problems (Greek, PDF)</a>
     </div>
   </div>
 </div>
@@ -155,7 +157,7 @@ is available in English and in Greek, and is submitted through Helios.
   <div class="entry-label">Assignment 1</div>
   <div class="entry-body">
     <div class="entry-title">Functional Programming and Proofs in Rocq</div>
-    <div class="entry-desc">Booleans; natural numbers; equality of natural numbers; recursive higher-order functions and the Ackermann function. 100 points + 10 bonus points.</div>
+    <div class="entry-desc">Booleans, natural numbers, equality of natural numbers, recursive higher-order functions and the Ackermann function. 100 points + 10 bonus points.</div>
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/assignments/01/assignment1_eng.v' | relative_url }}">assignment1_eng.v (English)</a>
       <a href="{{ '/assets/courses/pl2/assignments/01/assignment1.v' | relative_url }}">assignment1.v (Greek)</a>
@@ -167,7 +169,7 @@ is available in English and in Greek, and is submitted through Helios.
   <div class="entry-label">Assignment 2</div>
   <div class="entry-body">
     <div class="entry-title">Functions, Binary Numbers, Logic, and Lists</div>
-    <div class="entry-desc">Properties of functions; natural numbers in binary; logic; lists. 100 points + 10 bonus points.</div>
+    <div class="entry-desc">Properties of functions, natural numbers in binary, logic, lists. 100 points + 10 bonus points.</div>
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/assignments/02/assignment2_eng.v' | relative_url }}">assignment2_eng.v (English)</a>
       <a href="{{ '/assets/courses/pl2/assignments/02/assignment2.v' | relative_url }}">assignment2.v (Greek)</a>
@@ -179,7 +181,7 @@ is available in English and in Greek, and is submitted through Helios.
   <div class="entry-label">Assignment 3</div>
   <div class="entry-body">
     <div class="entry-title">Operational Semantics of Imp</div>
-    <div class="entry-desc">An Imp program that swaps two variables; correctness of constant folding for Imp; extending Imp with for loops. 100 points + 20 bonus points. The archive also contains <code>imp.v</code> with the Imp definitions from Section 3 and a Makefile; follow the README inside and submit only <code>assignment3.v</code>.</div>
+    <div class="entry-desc">An Imp program that swaps two variables, correctness of constant folding for Imp, extending Imp with for loops. 100 points + 20 bonus points. The archive also contains <code>imp.v</code> with the Imp definitions from Section 3 and a Makefile. Follow the README inside and submit only <code>assignment3.v</code>.</div>
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/assignments/03/assignment3_eng.zip' | relative_url }}">assignment3_eng.zip (English)</a>
       <a href="{{ '/assets/courses/pl2/assignments/03/assignment3.zip' | relative_url }}">assignment3.zip (Greek)</a>
@@ -191,10 +193,22 @@ is available in English and in Greek, and is submitted through Helios.
   <div class="entry-label">Assignment 4</div>
   <div class="entry-body">
     <div class="entry-title">Hoare Logic and Dafny</div>
-    <div class="entry-desc">Repeated squaring in Imp, proved correct with Hoare logic; a havoc command for Imp and Hoare logic; fast exponentiation in Dafny. Solve two of the three exercises for 100 points; solving all three earns 30 bonus points. The archive also contains <code>imp.v</code>, <code>hoare.v</code>, and a Makefile; follow the README inside and submit <code>assignment4.v</code> and/or <code>fastexp.dfy</code>.</div>
+    <div class="entry-desc">Repeated squaring in Imp, proved correct with Hoare logic. A havoc command for Imp and Hoare logic. Fast exponentiation in Dafny. Solve two of the three exercises for 100 points. Solving all three earns 30 bonus points. The archive also contains <code>imp.v</code>, <code>hoare.v</code>, and a Makefile. Follow the README inside and submit <code>assignment4.v</code> and/or <code>fastexp.dfy</code>.</div>
     <div class="entry-links">
       <a href="{{ '/assets/courses/pl2/assignments/04/assignment4_eng.zip' | relative_url }}">assignment4_eng.zip (English)</a>
       <a href="{{ '/assets/courses/pl2/assignments/04/assignment4.zip' | relative_url }}">assignment4.zip (Greek)</a>
+    </div>
+  </div>
+</div>
+
+<div class="syllabus-entry">
+  <div class="entry-label">Assignment 5</div>
+  <div class="entry-body">
+    <div class="entry-title">Type Safety with Recursion, References, and Errors</div>
+    <div class="entry-desc">Fixed-point operator and let rec, references, errors, and type safety. 100 points + 5 bonus points. The archive also contains <code>miniML.v</code> and a Makefile. Follow the README inside and submit only <code>assignment5.v</code>.</div>
+    <div class="entry-links">
+      <a href="{{ '/assets/courses/pl2/assignments/05/assignment5_eng.zip' | relative_url }}">assignment5_eng.zip (English)</a>
+      <a href="{{ '/assets/courses/pl2/assignments/05/assignment5.zip' | relative_url }}">assignment5.zip (Greek)</a>
     </div>
   </div>
 </div>
