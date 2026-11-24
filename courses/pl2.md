@@ -49,7 +49,7 @@ program analysis, and memory safety. Lectures and assignments use the
   <dt>Material</dt>
   <dd><a href="https://github.com/zoep/PL2">github.com/zoep/PL2</a> (lecture notes, code, and resources)</dd>
   <dt>Software</dt>
-  <dd>The Rocq Prover (version 9.0 or later) and an editor with Rocq support. See the installation instructions in <a href="https://github.com/zoep/PL2/blob/main/INSTALL.md">Greek</a> or <a href="https://github.com/zoep/PL2/blob/main/INSTALL-eng.md">English</a>.<br>Dafny, for Section 5: the easiest setup is VS Code with the Dafny extension, which offers to install Dafny when you open a <code>.dfy</code> file (see the <a href="https://dafny.org/latest/Installation">Dafny installation instructions</a>).</dd>
+  <dd>The Rocq Prover (version 9.0 or later) and an editor with Rocq support. See the installation instructions in <a href="https://github.com/zoep/PL2/blob/main/INSTALL.md">Greek</a> or <a href="https://github.com/zoep/PL2/blob/main/INSTALL-eng.md">English</a>.<br>Dafny (Section 5). The easiest setup is VS Code with the Dafny extension, which offers to install Dafny when you open a <code>.dfy</code> file (see the <a href="https://dafny.org/latest/Installation">Dafny installation instructions</a>).</dd>
 </dl>
 
 ## Sections

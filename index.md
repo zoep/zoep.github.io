@@ -21,7 +21,7 @@ title: Home
     I am an Assistant Professor specializing in formal verification, interactive
     theorem proving, and verified compilers. I build practical tools, grounded in
     foundational theory, that ensure end-to-end correctness of complex software
-    systems. My recent work explores AI-assisted proof mechanization: leveraging
+    systems. My recent work explores AI-assisted proof mechanization by leveraging
     LLMs to dramatically accelerate the development of machine-checked proofs for
     verified software.
   </p>
