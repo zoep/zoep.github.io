@@ -27,7 +27,7 @@ For a full list, see my [Google Scholar profile](https://scholar.google.com/cita
 
 <div class="pub-entry">
   <div class="pub-title">hevm, a Fast Symbolic Execution Framework for EVM Bytecode (tool paper)</div>
-  <div class="pub-authors">Dxo, Mate Soos, Zoe Paraskevopoulou, Martin Lundfall, and Mikael Brockman</div>
+  <div class="pub-authors">dxo, Mate Soos, Zoe Paraskevopoulou, Martin Lundfall, and Mikael Brockman</div>
   <div class="pub-venue">CAV 2024</div>
 </div>
 
@@ -54,7 +54,7 @@ For a full list, see my [Google Scholar profile](https://scholar.google.com/cita
 </div>
 
 <div class="pub-entry">
-  <div class="pub-title">Closure Conversion is Safe for Space</div>
+  <div class="pub-title">Closure Conversion Is Safe for Space</div>
   <div class="pub-authors">Zoe Paraskevopoulou and Andrew Appel</div>
   <div class="pub-venue">ICFP 2019</div>
   <div class="pub-links">
@@ -75,7 +75,7 @@ For a full list, see my [Google Scholar profile](https://scholar.google.com/cita
 
 <div class="pub-entry">
   <div class="pub-title">Generating Good Generators for Inductive Relations</div>
-  <div class="pub-authors">Leonidas Lampropoulos, Zoe Paraskevopoulou, and Benjamin Pierce</div>
+  <div class="pub-authors">Leonidas Lampropoulos, Zoe Paraskevopoulou, and Benjamin C. Pierce</div>
   <div class="pub-venue">POPL 2018</div>
   <div class="pub-links">
     <a href="{{ '/assets/pdf/GeneratingGoodGenerators.pdf' | relative_url }}">paper</a>
@@ -165,7 +165,7 @@ For a full list, see my [Google Scholar profile](https://scholar.google.com/cita
 </div>
 
 <div class="pub-entry">
-  <div class="pub-title">A Coq Framework For Verified Property-Based Testing</div>
+  <div class="pub-title">A Coq Framework for Verified Property-Based Testing</div>
   <div class="pub-authors">Diploma Thesis, National Technical University of Athens. Advised by C&abreve;t&abreve;lin Hri&#x163;cu</div>
   <div class="pub-links">
     <a href="http://artemis-new.cslab.ece.ntua.gr:8080/jspui/bitstream/123456789/7104/1/DT2014-0240.pdf">thesis</a>
